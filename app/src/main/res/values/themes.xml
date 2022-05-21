@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RentalMotor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/green_500</item>
+        <item name="colorSecondaryVariant">@color/green_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnSecondary</item>
+
+    </style>
+
+    <style name= "AppTheme" parent= "Theme.RentalMotor" >
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name= "android:textViewStyle" > @style/PoppinsTextViewStyle </item>
+        <item name= "android:buttonStyle" > @style/PoppinsButtonStyle </item>
+    </style>
+    <style name= "PoppinsTextViewStyle" parent= "android:Widget.TextView" >
+        <item name= "android:fontFamily" > @font/poppins_light </item>
+    </style>
+    <style name= "PoppinsButtonStyle" parent= "android:Widget.Holo.Button" >
+        <item name= "android:fontFamily" > @font/poppins_light </item>
+    </style>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/im_user" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/username_tf_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="30sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/email_tf_account"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="null"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/edit_bt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="@font/poppins_light"
+            android:drawableRight="@drawable/ic_right"
+            android:drawableLeft="@drawable/ic_icon_edit_profile"
+            android:text="Edit Profile"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/notifikasi_bt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:drawableRight="@drawable/ic_right"
+            android:drawableLeft="@drawable/ic_icon_alert"
+            android:text="Notifikasi"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/riwayat_bt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:drawableRight="@drawable/ic_right"
+            android:drawableLeft="@drawable/ic_icon_history"
+            android:text="Riwayat Pembelian"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/kartu_bt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:drawableRight="@drawable/ic_right"
+            android:drawableLeft="@drawable/ic_icon_payment"
+            android:text="Kartu"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/keluar_bt"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:padding="20dp"
+            android:fontFamily="@font/poppins_light"
+            android:drawableLeft="@drawable/ic_icon_exit"
+            android:text="Keluar"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</FrameLayout>

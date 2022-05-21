@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/explore">
+
+    <fragment
+        android:id="@+id/explore"
+        android:name="com.rentalmotor.Explore"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.rentalmotor.Cart"
+        android:label="fragment_chart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/account"
+        android:name="com.rentalmotor.Account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>
